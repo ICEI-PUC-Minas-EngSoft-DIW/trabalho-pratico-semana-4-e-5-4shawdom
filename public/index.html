@@ -1,70 +1,83 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Venda de Ingressos</title>
-  <link rel="stylesheet" href="style.css">
-</head>
 <body>
-  <header class="header">
-    <h1 class="logo">Penido's Tickets</h1>
-    <nav class="menu">
-      <ul>
-        <li><a href="#">Início</a></li>
-        <li><a href="#">Eventos</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-    </nav>
-    <button class="login-btn">Login</button>
+  <header class="bg-dark text-white p-3">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
+      <h1 class="logo">Penido's Tickets</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link text-white" href="#">Início</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Eventos</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Contato</a></li>
+        </ul>
+      </nav>
+      <button class="btn btn-warning mt-2 mt-md-0">Login</button>
+    </div>
   </header>
 
   <main>
-    <section class="hero">
-      <h2>Compre já seus ingressos!</h2>
-      <p>Garanta presença nos melhores eventos da cidade.</p>
-      <button class="btn-hero">Comprar Ingressos</button>
-    </section>
-
-    <section class="eventos">
-      <h2>Eventos em Destaque</h2>
-      <div class="cards">
-        <article class="card">
-          <img src="data:image/jpeg;base64,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" alt="Evento 1">
-          <h3>Rock In Rio</h3>
-          <p>Data: 15/09</p>
-        </article>
-
-                <article class="card">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdGBBRUirHaqWlyfNj6_h5z3_4rAjb7yo2ng&s" alt="Evento 2">
-          <h3>Planeta Brasil</h3>
-          <p>Data: 22/09</p>
-        </article>
-
-        <article class="card">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM1zyE6KZdujdOeczCntiv5xqRwH2aUdbr3Q&s" alt="Evento 3">
-          <h3>Teatro Musical</h3>
-          <p>Data: 29/09</p>
-        </article>
+    <section class="hero text-center text-white py-5" style="background: #f39c12;">
+      <div class="container">
+        <h2>Compre já seus ingressos!</h2>
+        <p>Garanta presença nos melhores eventos da cidade.</p>
+        <button class="btn btn-dark btn-lg mt-3" onclick="document.getElementById('eventos').scrollIntoView({behavior: 'smooth'});">
+          Comprar Ingressos
+        </button>
       </div>
     </section>
 
-    <section class="contato">
-      <h2>Contato</h2>
-      <form>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required>
+    <section class="eventos py-5" id="eventos">
+      <div class="container">
+        <h2 class="text-center mb-4">Eventos em Destaque</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdGBBRUirHaqWlyfNj6_h5z3_4rAjb7yo2ng&s" class="card-img-top" alt="Evento 1">
+              <div class="card-body text-center">
+                <h5 class="card-title">Rock In Rio</h5>
+                <p class="card-text">Data: 15/09</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdGBBRUirHaqWlyfNj6_h5z3_4rAjb7yo2ng&s" class="card-img-top" alt="Evento 2">
+              <div class="card-body text-center">
+                <h5 class="card-title">Planeta Brasil</h5>
+                <p class="card-text">Data: 22/09</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM1zyE6KZdujdOeczCntiv5xqRwH2aUdbr3Q&s" class="card-img-top" alt="Evento 3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Teatro Musical</h5>
+                <p class="card-text">Data: 29/09</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
-
-        <button type="submit">Enviar</button>
-      </form>
+    <section class="contato py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Contato</h2>
+        <form class="mx-auto" style="max-width: 400px;">
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome:</label>
+            <input type="text" id="nome" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail:</label>
+            <input type="email" id="email" class="form-control" required>
+          </div>
+          <button type="submit" class="btn btn-warning w-100">Enviar</button>
+        </form>
+      </div>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="bg-dark text-white text-center py-3">
     <p>&copy; 2025 Penido's Tickets - Todos os direitos reservados</p>
   </footer>
 </body>
-</html>
