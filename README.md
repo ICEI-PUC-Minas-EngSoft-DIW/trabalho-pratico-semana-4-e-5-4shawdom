@@ -11,12 +11,12 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 - Nome: Joao Victor Penido 
 - Matricula:899630
 - Proposta de projeto escolhida: Site de vendas de ingressos de eventos
-- Breve descrição sobre seu projeto:
+- Breve descrição sobre seu projeto: Penido's Tickets é um site moderno e intuitivo que permite aos usuários comprar ingressos para os melhores eventos da cidade de forma rápida e segura.
 
 ## Print da versão responsiva com CSS puro
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](image.png)
 
 ## Print da versão responsiva com Bootstrap
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](image-1.png)
