@@ -8,9 +8,9 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
+- Nome: Joao Victor Penido 
+- Matricula:899630
+- Proposta de projeto escolhida: Site de vendas de ingressos de eventos
 - Breve descrição sobre seu projeto:
 
 ## Print da versão responsiva com CSS puro
